@@ -1,0 +1,129 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+h1 {
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid white;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+.sign-up-card {
+  background-color: #0097a7;
+}
+
+
+#home-section {
+  background: url(../images/DSC00883.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 1000px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1000px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#home-section .home-inner {
+  padding-top: 200px;
+}
+
+#home-section .card-form {
+  opacity: 0.9;
+}
+
+#home-section .fas {
+  color: #0097a7;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.email {
+  text-decoration: none !important;
+  color: white;
+}
+.email:hover {
+  color: #0097a7;
+  transition: 0.2s;
+}
+
+.meet-the-guys {
+  border-bottom: 1px solid #6c757d;
+}
+
+.social-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #6c757d;
+}
+.social-links a {
+  font-size: 26px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #6c757d;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.social-links a:hover {
+  background: #0097a7;
+  color: antiquewhite;
+}
+
+
+.social-links-explore {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid white;
+}
+.social-links-explore a {
+  font-size: 26px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.social-links-explore a:hover {
+  background: #0097a7;
+  color: antiquewhite;
+}
+
+
+.footer-custom {
+    align-items: center;
+}
+
+.button-custom {
+  background-color: #008ed6;
+  color: azure;
+}
