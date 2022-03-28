@@ -175,3 +175,12 @@ h1 {
  footer {
   border-top: #008ed6 3px solid;
  }
+
+ .footer-custom {
+  align-items: center;
+}
+
+.button-custom {
+  background-color: #008ed6;
+  color: azure;
+}
