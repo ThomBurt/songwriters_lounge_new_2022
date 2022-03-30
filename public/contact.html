@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Songwriters Lounge</title>
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c96c8e63ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/contact.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="/" class="header-sl-logo">
+                <img alt="Songwriters Lounge" src="../assets/images/SL LOGO NEW 2021 WHITE.png" 
+              width="250px" height="100px">  
+              </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="audio.html" class="nav-link">Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<section class="contact-section " id="home-section">
+    <div class="modal-header dark-overlay">
+    </div>
+    <div class="modal-body text-center">
+        <form id="my-form" action="https://formspree.io/f/xqknddpv" method="POST" >
+            <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <p id="my-form-status"></p>
+              <button class="mt-4 mb-4 btn btn-secondary col-6 contact-btn" id="my-form-button">
+                Send Message
+            </button>
+        </form>
+        <div class="container">
+            <div class="row">
+                    <div class="social-links-explore"  id="About-section"> <!--about section id is here so it scrolls to right place-->
+                        <a class="icon" href="https://www.facebook.com/songwriterslounge1"  target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="icon" href="https://www.instagram.com/songwriterslounge_"  target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="icon" href="https://anchor.fm/songwriters-lounge"  target="_blank"  class="spotify"><i class="fa-brands fa-spotify"></i></a>    
+                        <a class="icon" href="https://www.youtube.com/c/songwriterslounge"  target="_blank"  class="youtube"><i class="fa-brands fa-youtube"></i></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+
+    </div>
+</section>
+ 
+</body>
+
+<script src="/assets/js/email.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script>// Get current year for the copyright
+    $('#year').text(new Date().getFullYear());
+</script>
+</html>

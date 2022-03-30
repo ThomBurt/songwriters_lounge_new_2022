@@ -1,0 +1,80 @@
+body {
+    background-color: #333;
+    color: white;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid white;
+  }
+  
+  .navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+  }
+
+
+  #home-section {
+    background: url(../images/logo-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+  
+.contact-section {
+    padding-top: 120px;
+    height: 80vh;
+}
+
+.footer-custom {
+    align-items: center;
+}
+
+.contact-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+}
+
+
+.social-links-explore {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+  }
+  .social-links-explore a {
+    font-size: 35px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 1;
+    margin-right: 14px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: all 0.2s ease-in-out;
+  }
+  .social-links-explore a:hover {
+    transform: scale(1.1);
+    background: #0097a7;
+    color: antiquewhite;
+  }
