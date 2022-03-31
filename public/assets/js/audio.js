@@ -63,6 +63,7 @@ navigator.mediaDevices.getUserMedia(constraintObj)
     let recordingFlasher = document.getElementById('recording-icon');
     let mediaRecorder = new MediaRecorder(mediaStreamObj);
     let chunks = [];
+    let newAudio = document.getElementById('audio-capture-thom');
 
    
     start.addEventListener('click', (ev)=>{
@@ -79,6 +80,7 @@ navigator.mediaDevices.getUserMedia(constraintObj)
         vidSave.classList.remove('hide');
         recordingFlasher.classList.add('hide');
        // console.log(mediaRecorder.state);
+       newAudio.innerHTML = videoURL;
     });
     mediaRecorder.ondataavailable = function(ev) {
         chunks.push(ev.data);
@@ -89,6 +91,8 @@ navigator.mediaDevices.getUserMedia(constraintObj)
         let videoURL = window.URL.createObjectURL(blob);
         vidSave.src = videoURL;
         chunks.push(videoURL);
+
+
     }
 })
 .catch(function(err) { 
